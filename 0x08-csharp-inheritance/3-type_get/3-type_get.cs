@@ -11,7 +11,7 @@ class Obj
         foreach (var prop in myObj.GetType().GetProperties())
             Console.WriteLine(prop.Name);
 
-        Console.WriteLine($"{myObj.GetType().Name} methods:");
+        Console.WriteLine($"{myObj.GetType().Name} Methods:");
         foreach (var meth in myObj.GetType().GetMethods())
             Console.WriteLine(meth.Name);
     }
