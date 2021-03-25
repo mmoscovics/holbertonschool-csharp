@@ -43,16 +43,14 @@ public interface ICollectable
 /// Class TestObject inherits from Base and interfaces ///
 public class TestObject : Base, IInteractive, IBreakable, ICollectable
 {
-    /// name ///
-    public string name {get;set;}
-    /// Interact ///
-    public void Interact() {}
     /// durability ///
     public int durability {get;set;}
-    /// Break ///
-    public void Break() {}
     /// collected ///
     public bool isCollected {get;set;}
+    /// Interact ///
+    public void Interact() {}
+    /// Break ///
+    public void Break() {}
     /// Collect ///
     public void Collect() {}
 }
